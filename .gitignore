@@ -1,0 +1,59 @@
+# C/C++ derleme çıktıları
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+*.map
+build/
+Debug/
+Release/
+*.d
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# STM32CubeIDE
+.settings/
+.cproject
+.project
+*.launch
+Middlewares/
+
+# KiCad
+*.kicad_prl
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+
+# Altium
+History/
+__Previews/
+*.PrjPCBStructure
+*.REPReport
+
+# LTSpice
+*.raw
+*.op.raw
+*.fft
+
+# Gerber üretim dosyaları (önemli - sakla!)
+# Gerber'i repoda tutmak iyidir, silme
+
+# Log dosyaları
+*.log
+*.txt.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Geçici
+*.tmp
+*.bak
+~*
